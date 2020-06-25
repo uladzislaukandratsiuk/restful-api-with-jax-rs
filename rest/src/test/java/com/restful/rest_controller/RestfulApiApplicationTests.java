@@ -1,4 +1,4 @@
-package com.restful;
+package com.restful.rest_controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

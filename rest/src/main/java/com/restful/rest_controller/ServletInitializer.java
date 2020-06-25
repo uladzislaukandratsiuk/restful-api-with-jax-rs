@@ -1,4 +1,4 @@
-package com.restful;
+package com.restful.rest_controller;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
