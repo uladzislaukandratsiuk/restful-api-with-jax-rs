@@ -9,7 +9,7 @@ public interface ActivityService {
 
     List<Activity> getAllActivities();
 
-    Activity saveOrUpdateActivity(Activity activity);
+    void saveOrUpdateActivity(Activity activity);
 
     Optional<Activity> getActivityByName(String activityName);
 

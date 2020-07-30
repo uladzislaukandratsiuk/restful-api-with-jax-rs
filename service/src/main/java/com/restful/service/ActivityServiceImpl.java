@@ -25,8 +25,8 @@ public class ActivityServiceImpl implements ActivityService {
 
     @Override
     @Transactional
-    public Activity saveOrUpdateActivity(Activity activity) {
-        return activityDao.save(activity);
+    public void saveOrUpdateActivity(Activity activity) {
+        activityDao.save(activity);
     }
 
     @Override
